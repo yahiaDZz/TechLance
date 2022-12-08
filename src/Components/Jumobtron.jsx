@@ -22,9 +22,9 @@ const Jumobtron = () => {
     type="button"
     class="w-50 mx-20 inline-block px-6 py-2.5 mt-4 bg-rose text-darkish font-medium text-xs leading-tight uppercase rounded-[50px] shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
     >
-    REGISTER NOW
+    Get Started
   </button>
-  <img class="rounded-[300px] mx-[600px] my-[-200px]" src="https://i.ibb.co/0c6qmjh/logo.png" alt="logo" border="0"></img>
+  <img class=" rounded-[300px] mx-[600px] my-[-200px]" src="https://i.ibb.co/0c6qmjh/logo.png" alt="logo" border="0"></img>
   </div>
 </div>
     </div>

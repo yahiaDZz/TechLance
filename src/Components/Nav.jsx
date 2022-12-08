@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -11,22 +12,25 @@ const Nav = () => {
     <div>
       <ul class=" flex space-x-4 p-3 text-[20px] font-display ">
         <li>
-          <a href="#" class="rounded-[30px] md:hover:border-2 border-white  py-3 pl-5 pr-4 text-white" aria-current="page">Home</a>
+          <Link to="/" class="rounded-[30px] md:hover:border-2 border-white  py-3 pl-5 pr-4 text-white" aria-current="page">Home</Link>
         </li>
         <li>
-          <a href="#" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">About Us</a>
+          <Link to="/about" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">About</Link>
         </li>
         <li>
-          <a href="#" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">Agenda</a>
+          <Link to="/us" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white"> Us</Link>
         </li>
         <li>
-          <a href="#" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">Speakers</a>
+          <Link to="/agenda" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">Agenda</Link>
         </li>
         <li>
-          <a href="#" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">FAQ</a>
+          <Link to="/speakers" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">Speakers</Link>
         </li>
         <li>
-          <a href="#" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">Contact</a>
+          <Link to="/faq" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">FAQ</Link>
+        </li>
+        <li>
+          <Link to="/contact" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">Contact</Link>
         </li>
       </ul>
     </div>
