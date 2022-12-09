@@ -29,9 +29,6 @@ const Nav = () => {
         <li>
           <Link to="/faq" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">FAQ</Link>
         </li>
-        <li>
-          <Link to="/contact" class="rounded-[30px] md:hover:border-2  border-white  py-3 pl-5 pr-4 text-white">Contact</Link>
-        </li>
       </ul>
     </div>
   </div>
