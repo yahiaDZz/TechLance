@@ -35,7 +35,7 @@ const FAQ = () => {
         <div class ="ml-[100px] mt-10">
         <div class="flex space-x-20">
           <div class="ml-[200px]">
-            <a href="https://imgbb.com/">
+            <a href="https://twitter.com/CSESI_Club " target="_blank">
               <img
                 class="w-[50px] h-[50px]"
                 src="https://i.ibb.co/hLqnq3b/Twitter.png"
@@ -45,7 +45,7 @@ const FAQ = () => {
             </a>
           </div>
           <div class="ml-[200px]">
-            <a href="https://imgbb.com/">
+            <a href="https://www.instagram.com/cse.club/" target="_blank">
               <img
                 class="w-[50px] h-[50px]"
                 src="https://i.ibb.co/D8xFHGq/instagram.png"
@@ -55,7 +55,7 @@ const FAQ = () => {
             </a>
           </div>
           <div class="ml-[200px]">
-            <a href="https://imgbb.com/">
+            <a href="https://www.youtube.com/@ClubScientifiqueESI-" target="_blank">
               <img
                 class="w-[50px] h-[50px]"
                 src="https://i.ibb.co/Kxj24sB/youtube.png"
@@ -65,7 +65,7 @@ const FAQ = () => {
             </a>
           </div>
           <div class="ml-[200px]">
-            <a href="https://imgbb.com/">
+            <a href="https://www.facebook.com/club.scientifique.esi/?mibextid=ZbWKwL" target="_blank">
               <img
                 class="w-[50px] h-[50px]"
                 src="https://i.ibb.co/Z8SgZG9/facebook.png"
@@ -75,7 +75,7 @@ const FAQ = () => {
             </a>
           </div>
           <div class="ml-[200px]">
-            <a href="https://imgbb.com/">
+            <a href="https://dz.linkedin.com/company/cse-club" target="_blank">
               <img
                 class="w-[50px] h-[50px]"
                 src="https://i.ibb.co/PFdwQtF/linkedin.png"
