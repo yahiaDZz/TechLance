@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TechLance/static/css/main.5f69175e.css",
+    "main.js": "/TechLance/static/js/main.82e633e4.js",
+    "static/js/787.50f62861.chunk.js": "/TechLance/static/js/787.50f62861.chunk.js",
+    "index.html": "/TechLance/index.html",
+    "main.5f69175e.css.map": "/TechLance/static/css/main.5f69175e.css.map",
+    "main.82e633e4.js.map": "/TechLance/static/js/main.82e633e4.js.map",
+    "787.50f62861.chunk.js.map": "/TechLance/static/js/787.50f62861.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f69175e.css",
+    "static/js/main.82e633e4.js"
+  ]
+}
