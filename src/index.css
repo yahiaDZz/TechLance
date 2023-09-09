@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Generalized animation class */
+.animate-on-load {
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    transform: translateY(0); /* Initial position for translation effect (no translation) */
+  }
+  
+  /* Translation down animation */
+  .translate-down {
+    animation-name: translateDown;
+  }
+  .rotation{
+    animation-name:rotate;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+  }
+  
+  /* Translation up animation */
+  .translate-up {
+    animation-name: translateUp;
+  }
+  @keyframes translateDown {
+    from {
+      transform: translateY(-100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  @keyframes translateUp {
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Translation right animation */
+  .translate-right {
+    animation-name: translateRight;
+  }
+  
+  @keyframes translateRight {
+    from {
+      transform: translateX(-100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Translation left animation */
+  .translate-left {
+    animation-name: translateLeft;
+  }
+  
+  @keyframes translateLeft {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .fade-in {
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
